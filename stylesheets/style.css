@@ -391,22 +391,25 @@ a.link-more {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1137px !important;
+    width: 1110px !important;
     max-width: 100%;
   }
 }
 
-/* Header
+/* Header top
 -------------------------------------------------------------- */
-#header {
-    background-image: url('../images/bg-header.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 100%;
+.header-top .social-links {
+    float: left;
 }
 
+.header-top .widget-login {
+    float: right;
+}
+
+/* Header
+-------------------------------------------------------------- */
 .wrap-slider.home #header {
-    background-color: transparent;
+    background-color: #000;
     position: absolute;
     top: 0;
     left: 0;
