@@ -406,6 +406,10 @@ a.link-more {
     float: right;
 }
 
+.header-top .social-links a {
+    color: #aeaeae;
+}
+
 /* Header
 -------------------------------------------------------------- */
 .wrap-slider.home #header {
