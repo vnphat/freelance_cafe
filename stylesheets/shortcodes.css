@@ -1,0 +1,175 @@
+/*Columns difine 
+--------------------------------------------------------------*/
+
+.two-columns .entry{
+    width: 50%;
+}
+
+.three-columns .entry{
+    width: 33.33%;
+}
+
+.four-columns .entry{
+    width: 25%;
+}
+
+.five-columns .entry{
+    width: 20%;
+}
+
+.two-columns .entry,
+.three-columns .entry,
+.four-columns .entry,
+.five-columns .entry {
+    float: left;
+    padding: 0 15px;
+}
+
+.two-columns ,
+.three-columns ,
+.four-columns ,
+.five-columns  {
+    overflow: hidden;
+}
+
+
+/* Row
+-------------------------------------------------------------- */
+.flat-row {
+    clear: both;
+    display: block;
+    position: relative;
+    padding: 50px 0;
+}
+
+/*Button
+----------------------------------------------------------------*/
+.flat-button {  
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    font-family: "Proxima Nova", sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    color: #fff;
+    z-index: 1;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    line-height: 27px;
+}
+
+.flat-button:before {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;   
+    content: "";
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);    
+    -webkit-transition: all 0.3s ease-out;
+       -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+         -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;  
+}
+
+.flat-button:hover:before {     
+    background: #2f6697;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}   
+
+
+.flat-button.background-blue {
+    background-color: #2f6697;
+    border-color: #2f6697;
+    letter-spacing: 1px;
+}
+
+
+.flat-button.background-blue:hover {
+    color: #2f6697;
+}
+
+.flat-button.background-blue:before {
+    background-color: #fff;
+}
+
+.flat-button.background-blue.hover-white {
+    border-color: #ffffff;
+}
+
+/*Widget Social network
+--------------------------------------------------------------------*/
+.widget-social ul li a {
+    position: relative;
+    top: 0;
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    margin-right: 4px;
+    background-repeat: no-repeat;
+    background-image: url(../images/icon/icon-facebook.png);
+    background-position: center center;
+    background-size: cover;
+    -webkit-transition: all 0.1s ease-out;
+       -moz-transition: all 0.1s ease-out;
+        -ms-transition: all 0.1s ease-out;
+         -o-transition: all 0.1s ease-out;
+            transition: all 0.1s ease-out;  
+}
+
+.widget-social ul li a:hover {
+    top: -5px;
+}
+.widget-social ul li a.insgram {
+    background-image: url(../images/icon/icon-in.png);
+}
+.widget-social ul li a.google {
+    background-image: url(../images/icon/icon-google.png);
+}
+.widget-social ul li a.twiter {
+    background-image: url(../images/icon/icon-twiter.png);
+}
+.widget-social ul li a.rss {
+    background-image: url(../images/icon/icon-rss.png);
+}
+
+.widget-social ul li {
+    display: inline-block;
+}
+/* Divider
+-------------------------------------------------------------- */
+.divider {
+	position: relative;
+	width: 100%;
+    overflow: hidden;
+}
+
+.divider.divider20{
+	height: 20px;
+}
+
+.divider.divider30{
+	height: 30px;
+}
+.divider.divider40{
+    height: 40px;
+}
+
+.divider.divider50{
+	height: 50px;
+}
+.divider.divider100{
+	height: 100px;
+}
+
