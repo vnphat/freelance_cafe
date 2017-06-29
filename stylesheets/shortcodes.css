@@ -206,14 +206,6 @@
   }
 }
 
-.a img {
-    -webkit-transform: scale(1.2) rotate(7deg);
-    -moz-transform: scale(1.2) rotate(7deg);
-    -o-transform: scale(1.2) rotate(7deg);
-    -ms-transform: scale(1.2) rotate(7deg);
-    transform: scale(1.2) rotate(7deg);
-}
-
 /* Imagesbox
 ---------------------------------------------------------------*/
 .cafe-imagesbox {
