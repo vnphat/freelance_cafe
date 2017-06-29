@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('.tp-banner').show().revolution({
         dottedOverlay:"none",
         delay:6000,
-        startwidth:1107,
+        startwidth:1110,
         startheight:645,
         hideThumbs:200,
 
