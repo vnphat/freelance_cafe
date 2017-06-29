@@ -4,7 +4,7 @@
   * Author: Hoa.Truong
 */
 
-/*color : 2e6595 */
+/*color : 859c33 */
 
 @import url("font-awesome.css");
 @import url("flexslider.css");
@@ -231,7 +231,7 @@ a {
 
 a:hover,
 a:focus {
-	color: #2e6595;
+	color: #859c33;
 	text-decoration: none;
 	outline: 0;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -476,6 +476,10 @@ a.link-more {
 
 /* Header top
 -------------------------------------------------------------- */
+.header-top {
+    padding: 5px 0;
+}
+
 .header-top .social-links {
     float: left;
 }
@@ -484,26 +488,76 @@ a.link-more {
     float: right;
 }
 
+.header-top .widget-login .title-login a {
+    font-family: "ProximaNova-Regular", sans-serif;
+    font-size: 19.44px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000;
+    -webkit-opacity: 0.60;
+    -khtml-opacity: 0.60;
+    -moz-opacity: 0.60;
+    opacity: 0.60;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+    filter: alpha(opacity=60);
+}
+
 .header-top .social-links a {
     color: #aeaeae;
+    padding-right: 12px;
 }
 
 /* Header
 -------------------------------------------------------------- */
 .wrap-slider.home #header {
     background-color: #000;
-    position: absolute;
-    top: 0;
-    left: 0;
     z-index: 999999!important;
     width: 100%;
-    margin-top: 28px;
     background-image: none;
     padding: 20px 0;
 }
 
-/* Header Fix */
+.search-box .flat-search {
+    margin-right: -15px;
+}
 
+.top-search {
+    position: absolute;
+    width: 450px;
+    right: 0;
+    top: 80px;
+    opacity: 0;
+    z-index: 99;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.top-search .search-submit {
+    color: #fff;
+    margin-left: -5px;
+}
+
+.top-search input::-webkit-input-placeholder {
+    color: #000;
+    -webkit-opacity: 0.34;
+    -khtml-opacity: 0.34;
+    -moz-opacity: 0.34;
+    opacity: 0.34;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=34);
+    filter: alpha(opacity=34);
+}
+
+.top-search.show {
+    top: 77px;
+    right: 0;
+    opacity: 1;
+    z-index: 9999;
+}
+
+/* Header Fix */
 #header.downscrolled {
 	position: fixed !important;
 	top: 0 !important;
@@ -966,11 +1020,18 @@ a.link-more {
 }
 
 .title-slider {
-    font-size: 71px !important;
-    color: #fff;
+    font-size: 77.77px !important;
+    line-height: 77.77px;
+    letter-spacing: 0.7px !important;
+    color: #000000;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: 'Franchise Bold',sans-serif;
+    font-family: 'ProximaNova-Bold',sans-serif;
+}
+
+.title-slider.style1 {
+    font-size: 62.78px !important;
+    line-height: 65px !important;
 }
 
 .title-slider span{
@@ -981,15 +1042,29 @@ a.link-more {
     color: #47c5f1;
 }
 .sub-title-slider{
-    font-size: 16px !important;
-    font-family: "Proxima Nova";
-    color: #babcbf;
-    line-height: 22px !important;
+    font-size: 38.89px !important;
+    font-family: "ProximaNova-Regular";
+    color: #000000;
+    line-height: 43px !important;
+    font-weight: 400;
+    letter-spacing: 0.4px !important;
 }
 
 .tp-caption.flat-button {
     line-height: 50px;
-    padding:0 20px ;
+    padding: 5px 25px !important;
+}
+
+.tp-banner-container .flat-button {
+    background-color: #000000;
+    border: none;
+}
+
+.tp-banner-container .flat-button a {
+    font-family: 'ProximaNova-Bold',sans-serif;
+    font-size: 16.67px;
+    color: #fff;
+    padding: 17px;
 }
 
 /* About
@@ -1026,85 +1101,6 @@ a.link-more {
     color: #000;
 }
 
-/* Imagesbox
----------------------------------------------------------------*/
-.cafe-imagesbox {
-    margin: 0 -20px;
-}
-
-.cafe-imagesbox .imagesbox {
-    width: 50%;
-    float: left;
-    padding: 0 20px;
-    height: 353px;
-    position: relative;
-    margin-bottom: 40px;
-}
-
-.cafe-imagesbox .imagesbox .featured-box a {
-    position: relative;
-    display: block;
-}
-
-.cafe-imagesbox .imagesbox .featured-box a:before {
-    position: absolute;
-    left: 0;
-    top: 0;
-    content: "";
-    width: 100%;
-    height: 100%;
-    -webkit-opacity: 0.4;
-    -khtml-opacity: 0.4;
-    -moz-opacity: 0.4;
-    opacity: 0.4;
-    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);
-    filter: alpha(opacity=40);
-    background: linear-gradient(to top, #000000 0%, #6E6E6E 100%); 
-    background: -moz-linear-gradient(to top, #000000 0%, #6E6E6E 100%); 
-    background: -o-linear-gradient(to top, #000000 0%, #6E6E6E 100%); 
-    background: -ms-linear-gradient(to top, #000000 0%, #6E6E6E 100%); 
-    background: -webkit-linear-gradient(bottom, #000000 0%, #6E6E6E 100%);
-}
-
-.cafe-imagesbox .imagesbox .featured-box img {
-    height: 353px;
-    width: 100%;
-}
-
-.cafe-imagesbox .imagesbox .imagesbox-content {
-    position: absolute;
-    bottom: 45px;
-    right: 60px;
-    text-align: center;
-}
-
-.cafe-imagesbox .imagesbox.style2 .imagesbox-content {
-    bottom: 65px;
-}
-
-.cafe-imagesbox .imagesbox .imagesbox-content .title {
-    margin-bottom: 0;
-}
-
-.cafe-imagesbox .imagesbox .imagesbox-content .title a {
-    font-size: 34.1px;
-    color: #fff;
-    text-align: center;
-    font-weight: 400;
-}
-
-.cafe-imagesbox .imagesbox .imagesbox-content .name a {
-    font-family: "bromello", sans-serif;
-    font-size: 83.13px;
-    color: #fff;
-    font-weight: 400;
-    line-height: 60px;
-}
-
-.cafe-imagesbox .imagesbox.style1 .imagesbox-content .name {
-    padding-bottom: 25px;
-}
-
 /*Footer
 ---------------------------------------------------------------*/
 .footer {
@@ -1138,6 +1134,16 @@ a.link-more {
     padding: 10px 10px 10px 20px;
     color: #000;
     font-size: 19.44px;
+}
+
+.footer input::-webkit-input-placeholder {
+    color: #000;
+    -webkit-opacity: 0.34;
+    -khtml-opacity: 0.34;
+    -moz-opacity: 0.34;
+    opacity: 0.34;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=34);
+    filter: alpha(opacity=34);
 }
 
 .footer .copyright {

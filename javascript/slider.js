@@ -3,7 +3,7 @@ $(document).ready(function() {
         dottedOverlay:"none",
         delay:6000,
         startwidth:1110,
-        startheight:645,
+        startheight:550,
         hideThumbs:200,
 
         thumbWidth:100,

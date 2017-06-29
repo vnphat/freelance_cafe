@@ -244,6 +244,30 @@
         });
 
     }
+
+    var flatSearch = function () {
+        $(document).on('click', function(e) {   
+            var clickID = e.target.id;   
+            if ( ( clickID != 's' ) ) {
+                $('.top-search').removeClass('show');                
+            } 
+        });
+
+        $('.search-box').on('click', function(event){
+            event.stopPropagation();
+        });
+
+        $('.search-form').on('click', function(event){
+            event.stopPropagation();
+        });        
+
+        $('.search-box').on('click', function () {
+            if(!$('.top-search').hasClass( "show" ))
+                $('.top-search').addClass('show');
+            else
+                $('.top-search').removeClass('show');
+        });
+    } 
     
 
 	$(function() { 
@@ -254,7 +278,7 @@
         responsiveMenu();
         flatClientCarousel();
         flatClientCompany();
-
+        flatSearch();
         flatTabs();
         //removePreloader();
    	});
