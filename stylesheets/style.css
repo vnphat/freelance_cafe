@@ -480,6 +480,10 @@ a.link-more {
   }
 }
 
+.boxed {
+  overflow-x: hidden;
+}
+
 /* Header top
 -------------------------------------------------------------- */
 .header-top {
@@ -860,7 +864,7 @@ a.link-more {
     line-height: 60px;
     width: 26px;
     height: 22px;
-    margin-top: 17px;
+    margin-top: 30px;
     -webkit-transition: all ease .238s;
     -moz-transition: all ease .238s;
     transition: all ease .238s;
@@ -1333,6 +1337,15 @@ a.link-more {
 
 .ad-space-widget .ad-space-text {
   margin: 0 -25px;
+  background-color: #000;
+}
+
+.ad-space-widget .ad-space-text .ad-text {
+  font-size: 30.44px;
+  text-transform: uppercase;
+  color: #d51212;
+  text-align: center;
+  padding: 385px 0;
 }
 
 .widget_input_mail_content {

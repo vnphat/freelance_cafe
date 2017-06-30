@@ -232,7 +232,6 @@
     width: 50%;
     float: left;
     padding: 0 20px;
-    height: 353px;
     position: relative;
     margin-bottom: 40px;
 }
@@ -310,7 +309,6 @@
 }
 
 .cafe-imagesbox .imagesbox .featured-box img {
-    height: 353px;
     width: 100%;
     -webkit-transition: all 0.3s ease-out;
        -moz-transition: all 0.3s ease-out;
