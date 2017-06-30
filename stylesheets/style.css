@@ -534,6 +534,7 @@ a.link-more {
     top: 80px;
     opacity: 0;
     z-index: 99;
+    visibility: hidden;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -ms-transition: all 0.3s ease 0s;
@@ -561,6 +562,7 @@ a.link-more {
     right: 0;
     opacity: 1;
     z-index: 9999;
+    visibility: visible;
 }
 
 /* Header Fix */
@@ -1213,7 +1215,167 @@ a.link-more {
   color: #fff;
 }
 
-.main-left-content {
-  padding: 0 40px;
+/* Main left
+-------------------------------------------------------------- */
+.main-left {
+  background-color: #fff;
 }
 
+.main-left-content {
+  padding: 0 40px;
+  overflow: hidden;
+}
+
+/* Sidebar
+-------------------------------------------------------------- */
+.sidebar-right {
+  background-color: #232323;
+  padding: 25px;
+  margin-left: -31px;
+}
+
+.widget.widget_text .logo-sidebar {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.widget.widget_nav_menu {
+  padding-bottom: 55px;
+}
+
+.widget_nav_menu .widget-menu li {
+  margin: 3px 0;
+}
+
+.widget_nav_menu .widget-menu  li  a {
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+  display: block;
+  padding: 10px 20px;
+  background: #333333;
+}
+
+.widget_nav_menu .widget-menu li a:hover {
+  color: #fff;
+}
+
+.widget_nav_menu .widget-menu  li  a:hover {
+  background-color: #e06416;
+}
+
+.submenu1 {
+  display: none;
+}
+
+.submenu2 {
+  display: none;
+}
+
+.widget-menu .has-sub a {
+  position: relative;
+}
+
+.widget-menu .has-sub > a:after {
+  content: "\f107";
+  font-family: 'FontAwesome';
+  position: absolute;
+  padding-left: 20px;
+}
+
+.widget-menu .has-sub .active {
+  position: relative;
+  background-color: #e06416;
+}
+
+.widget-menu .has-sub .active:after {
+  content: "\f106";
+  font-family: 'FontAwesome';
+  position: absolute;
+}
+
+.widget-menu .has-sub > ul {
+  padding: 1px;
+}
+
+.widget-menu .has-sub > ul > li a {
+  padding-left: 60px;
+  position: relative;
+}
+
+.widget-menu .has-sub > ul > li a:before {
+  position: absolute;
+  left: 45px;
+  top: 10px;
+  content: "\f105";
+  font-family: "FontAwesome";
+  font-size: 20px;
+  color: #e06416;
+}
+
+.ad-space-widget .ad-space-text {
+  margin: 0 -25px;
+}
+
+.widget_input_mail_content {
+  padding: 70px 0 65px 15px;
+}
+
+.widget_input_mail_content .input-mail-title {
+  font-size: 27.78px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.widget_input_mail_content .input-mail-text {
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 20px;
+  -webkit-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    filter: alpha(opacity=50);
+}
+
+.widget_input_mail_content .search-field {
+  background-color: transparent;
+  border-color: #919191;
+  margin-bottom: 20px;
+}
+
+.widget_input_mail_content input:-ms-input-placeholder {
+  color: #fff;
+  font-weight: 400;
+  -webkit-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    filter: alpha(opacity=50);
+}
+
+.widget_input_mail_content input[type="text"] {
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+}
+
+.widget_input_mail_content input[type="text"]:focus {
+  border-color: #e06416;
+}
+
+.widget_input_mail_content .search-submit {
+  background-color: #e06416;
+  font-family: "ProximaNova-Bold", sans-serif;
+  font-size: 15.18px;
+  color: #fff;
+  letter-spacing: 0.7px;
+}
+
+.widget_input_mail_content .search-submit:hover {
+  background-color: transparent;
+  border: 1px solid #e06416;
+}
