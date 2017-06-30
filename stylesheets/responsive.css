@@ -94,6 +94,10 @@
 	.flat-row.padding-bottom0px {
 		padding-top: 0;
 	}
+
+	.top-search.show {
+		top: 56px;
+	}
 }
 
 @media only screen and (max-width: 667px) {
@@ -128,6 +132,14 @@
 
 	.dreampages-slider .dr-slider .slider-content .title-big span {
 	    font-size: 70px;
+	}
+
+	.title-slider span {
+	    display: inline-block;
+	}
+
+	.sub-title-slider span {
+	    display: inline-block;
 	}
 }
 
@@ -177,6 +189,16 @@
 
 	.dream-interpretations {
 	    padding-top: 25px;
+	}
+
+	.button-slider.flat-button {
+		background: transparent;
+		padding-left: 0;
+	}
+
+	.button-slider.flat-button a {
+		color: #000;
+		padding-left: 0;
 	}
 }
 

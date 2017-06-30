@@ -1032,7 +1032,7 @@ a.link-more {
 }
 
 .title-slider {
-    font-size: 77.77px !important;
+    font-size: 77.77px;
     line-height: 77.77px;
     letter-spacing: 0.7px !important;
     color: #000000;
@@ -1042,37 +1042,40 @@ a.link-more {
 }
 
 .title-slider.style1 {
-    font-size: 62.78px !important;
-    line-height: 65px !important;
+    font-size: 62.78px;
+    line-height: 65px;
 }
 
-.title-slider span{
-    color: #47c5f1;
+.title-slider span {
+    color: #000;
+    display: block;
 }
 
-.sub-title-slider span{
-    color: #47c5f1;
+.sub-title-slider span {
+    color: #000;
+    display: block;
 }
-.sub-title-slider{
-    font-size: 38.89px !important;
+
+.sub-title-slider {
+    font-size: 38.89px;
     font-family: "ProximaNova-Regular";
     color: #000000;
-    line-height: 43px !important;
+    line-height: 43px;
     font-weight: 400;
     letter-spacing: 0.4px !important;
 }
 
-.tp-caption.flat-button {
+.button-slider.flat-button {
     line-height: 50px;
-    padding: 5px 25px !important;
+    padding: 5px 25px;
 }
 
-.tp-banner-container .flat-button {
+.button-slider.flat-button {
     background-color: #000000;
     border: none;
 }
 
-.tp-banner-container .flat-button a {
+.button-slider.flat-button a {
     font-family: 'ProximaNova-Bold',sans-serif;
     font-size: 16.67px;
     color: #fff;
