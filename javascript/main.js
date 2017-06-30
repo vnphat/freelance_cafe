@@ -327,6 +327,25 @@
             }
         });
     };
+
+    var menuSidebar = function(){
+        var element_a = $('.widget-menu > li > ul'),    
+        element_ul = $('.widget-menu > li > a');
+
+        element_a.hide();
+
+        element_ul.click(function(e) {
+            e.preventDefault();
+            if(!$(this).hasClass('active')) {
+                element_ul.removeClass('active');
+                element_a.filter(':visible').slideUp(300);
+                $(this).addClass('active').next().stop(true,true).slideDown(300);
+            } else {
+                $(this).removeClass('active');
+                $(this).next().stop(true,true).slideUp(300);
+            }
+        });
+    }
     
 
 	$(function() { 
@@ -336,6 +355,7 @@
         goTop();
         dreamSliderpages();
         inspiredDreamslider();
+        menuSidebar();
         responsiveSlider();
         responsiveMenu();
         flatClientCarousel();

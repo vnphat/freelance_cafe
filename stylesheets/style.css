@@ -1213,7 +1213,92 @@ a.link-more {
   color: #fff;
 }
 
+/* Main left
+-------------------------------------------------------------- */
+.main-left {
+  background-color: #fff;
+}
+
 .main-left-content {
   padding: 0 40px;
+  overflow: hidden;
+}
+
+/* Sidebar
+-------------------------------------------------------------- */
+.sidebar-right {
+  background-color: #232323;
+  padding: 25px;
+  margin-left: -31px;
+}
+
+.widget.widget_text .logo-sidebar {
+  text-align: center;
+}
+
+.widget_nav_menu .widget-menu li {
+  margin: 3px 0;
+}
+
+.widget_nav_menu .widget-menu  li  a {
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+  display: block;
+  padding: 10px 20px;
+  background: #333333;
+}
+
+.widget_nav_menu .widget-menu li a:hover {
+  color: #fff;
+}
+
+.submenu1 {
+  display: none;
+}
+
+.submenu2 {
+  display: none;
+}
+
+.widget-menu .has-sub a {
+  position: relative;
+}
+
+.widget-menu .has-sub > a:after {
+  content: "\f107";
+  font-family: 'FontAwesome';
+  position: absolute;
+  padding-left: 20px;
+}
+
+.widget-menu .has-sub .active {
+  position: relative;
+  background-color: #e06416;
+}
+
+.widget-menu .has-sub .active:after {
+  content: "\f106";
+  font-family: 'FontAwesome';
+  position: absolute;
+}
+
+.widget-menu .has-sub > ul {
+  padding: 1px;
+}
+
+.widget-menu .has-sub > ul > li a {
+  padding-left: 60px;
+  position: relative;
+}
+
+.widget-menu .has-sub > ul > li a:before {
+  position: absolute;
+  left: 45px;
+  top: 10px;
+  content: "\f105";
+  font-family: "FontAwesome";
+  font-size: 20px;
+  color: #e06416;
 }
 
