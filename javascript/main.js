@@ -268,12 +268,74 @@
                 $('.top-search').removeClass('show');
         });
     } 
+
+    var dreamSliderpages = function() {
+        $('.flat-row').each(function() {               
+            if ( $().owlCarousel ) {
+                $(this).find('.dreampages-slider').owlCarousel({
+                    loop: false,
+                    margin: 0,
+                    nav: false,
+                    dots: false,                     
+                    autoplay: false,                    
+                    responsive:{
+                        0:{
+                            items: 1
+                        },
+                        767:{
+                            items: 1
+                        },
+                        991:{
+                            items: 1
+                        },
+                        1200: {
+                            items: 1
+                        }
+                    }
+                });
+            }
+        });
+    };
+
+    var inspiredDreamslider = function() {
+        $('.flat-row').each(function() {               
+            if ( $().owlCarousel ) {
+                $(this).find('.inspired-dreams-slider').owlCarousel({
+                    loop: false,
+                    margin: 15,
+                    nav: true,
+                    dots: false,                     
+                    autoplay: false,                    
+                    responsive:{
+                        0:{
+                            items: 1
+                        },
+                        480:{
+                            items: 2
+                        },
+                        767:{
+                            items: 4
+                        },
+                        991:{
+                            items: 6
+                        },
+                        1200: {
+                            items: 6
+                        }
+                    }
+                });
+            }
+        });
+    };
     
 
 	$(function() { 
         if ( matchMedia( 'only screen and (min-width: 991px)' ).matches ) {
             headerFixed();
         }
+        goTop();
+        dreamSliderpages();
+        inspiredDreamslider();
         responsiveSlider();
         responsiveMenu();
         flatClientCarousel();

@@ -337,3 +337,252 @@
     padding-bottom: 25px;
 }
 
+/* Imagesbox style */
+.cafe-imagesbox.style {
+    padding-top: 77px;
+}
+
+.cafe-imagesbox.style .imagesbox {
+    height: auto;
+}
+
+.cafe-imagesbox.style .imagesbox .featured-box img {
+    height: auto;
+    width: 100%;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.cafe-imagesbox.style .imagesbox .imagesbox-content {
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin-top: -50px;
+}
+
+.cafe-imagesbox.style .imagesbox .imagesbox-content .title a {
+    font-size: 24.18px;
+}
+
+.cafe-imagesbox .imagesbox.style1 .imagesbox-content .name.dream-tools {
+    padding-left: 50px;
+}
+
+.cafe-imagesbox.style .imagesbox .imagesbox-content .name a {
+    font-size: 58.93px;
+    line-height: 25px;
+}
+
+.cafe-imagesbox.style .imagesbox .featured-box a span:before {
+    border-bottom: 1px solid #fff;
+    top: 30px;
+}
+
+.cafe-imagesbox.style .imagesbox .featured-box a span:after {
+    border-right: 1px solid #fff;
+    left: 30px;
+}
+
+.cafe-imagesbox.style .imagesbox .featured-box a:before {
+    content: none;
+}
+
+/* Dream pages slider
+---------------------------------------------------------------*/
+.dreampages-slider .dr-slider {
+    position: relative;
+    cursor: e-resize;
+}
+
+.dreampages-slider .dr-slider .slider-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 95px;
+}
+
+.dreampages-slider .dr-slider .slider-content .title-small {
+    font-size: 43.7px;
+    font-family: "ProximaNova-Regular", sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+
+.dreampages-slider .dr-slider .slider-content .title-big {
+    font-size: 91.37px;
+    color: #fff;
+    font-family: "ProximaNova-Bold", sans-serif;
+    margin-bottom: 85px;
+}
+
+.dreampages-slider .dr-slider .slider-content .title-big span {
+    font-size: 120.4px;
+    font-family: "bromello", sans-serif;
+    font-weight: 400;
+    line-height: 7px;
+}
+
+.dreampages-slider .dr-slider .slider-content a {
+    padding: 20px 45px;
+    font-size: 15.18px;
+    font-family: "ProximaNova-Bold", sans-serif;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+/* Title section
+---------------------------------------------------------------*/
+.title-section {
+    font-family: "ProximaNova-Bold", sans-serif;
+    font-size: 33.33px;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+/* Inspired dreams
+---------------------------------------------------------------*/
+.inspired-dreams-slider {
+    position: relative;
+}
+
+.inspired-dreams {
+    padding-top: 45px;
+}
+
+.inspired-dreams .ins-slider-item {
+    position: relative;
+    text-align: center;
+}
+
+.inspired-dreams .ins-slider-item .featured-img a {
+    position: relative;
+    display: block;
+}
+
+.inspired-dreams .ins-slider-item .featured-img a:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    -webkit-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+    filter: alpha(opacity=60);
+    background: linear-gradient(to top, #000000 0%, #FFFFFF 100%); 
+    background: -moz-linear-gradient(to top, #000000 0%, transparent 100%); 
+    background: -o-linear-gradient(to top, #000000 0%, transparent 100%); 
+    background: -ms-linear-gradient(to top, #000000 0%, transparent 100%); 
+    background: -webkit-linear-gradient(bottom, #000000 0%, transparent 100%);
+}
+
+.inspired-dreams .ins-slider-item .ins-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999999;
+}
+
+.inspired-dreams .ins-slider-item .ins-content a {
+    font-family: "ProximaNova-Bold", sans-serif;
+    font-size: 12.5px;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+}
+
+.inspired-dreams .ins-slider-item .ins-content a:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    -webkit-opacity: 0.4;
+    -khtml-opacity: 0.4;
+    -moz-opacity: 0.4;
+    opacity: 0.4;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+    filter: alpha(opacity=40);
+}
+
+.inspired-dreams-slider.owl-theme .owl-controls .owl-nav div {
+    width: 30px;
+    -webkit-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+    filter: alpha(opacity=80);
+}
+
+/* Dream interpretations
+---------------------------------------------------------------*/
+.dream-interpretations {
+    padding-top: 70px;
+}
+
+.dream-interpretations .dream-interpretations-content .featured-img {
+    margin-bottom: 27px;
+}
+
+.dream-interpretations .dream-interpretations-content .dream-int-title a {
+    font-family: "ProximaNova-Bold", sans-serif;
+    font-size: 25px;
+    color: #000;
+}
+
+.dream-interpretations .dream-interpretations-content .dream-int-text {
+    font-size: 19.44px;
+    letter-spacing: 0.7px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.dream-interpretations .dream-interpretations-content .dream-int-text span {
+    color: #e06416;
+}
+
+.pagination a {
+    display: block;
+    padding: 5px 14px;
+    color: #555555;
+    font-size: 22.22px;
+    border: 2px solid #e2e2e2;
+    background-color: #f7f7f7;
+    margin-right: 15px;
+    -webkit-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    filter: alpha(opacity=50);
+}
+
+.pagination a.active,
+.pagination a:hover {
+    border: 2px solid #b7b7b7;
+    background-color: #ffffff;
+    color: #e06416;
+    -webkit-opacity: 1;
+    -khtml-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+    filter: alpha(opacity=100);
+}
+
