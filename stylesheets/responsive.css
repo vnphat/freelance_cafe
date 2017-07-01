@@ -100,11 +100,30 @@
 	}
 }
 
-@media only screen and (max-width: 667px) {
+@media only screen and (max-width: 767px) {
 	.btn-menu {
 		display: block;
 	}
 
+	.about-content .ab-title {
+		margin-top: 30px;
+	}
+
+	.cafe-imagesbox .imagesbox {
+	    width: 100%;
+	}
+
+	.title-slider span,
+	.sub-title-slider span {
+	    display: inline-block;
+	}
+
+	.tp-caption {
+		padding-left: 20px !important;
+	}
+}
+
+@media only screen and (max-width: 667px) {
 	.about-img {
 		text-align: center;
 	}
@@ -145,7 +164,9 @@
 
 /* Mobile Landscape Size */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	
+	.tp-caption.flat-button {
+		margin-left: 20px !important;
+	}
 }
 
 /* Mobile Portrait Size */
@@ -200,6 +221,10 @@
 		color: #000;
 		padding-left: 0;
 	}
+
+	.flat-button:hover:before {
+		background: transparent;
+	}
 }
 
 @media only screen and (max-width: 375px) {
@@ -247,6 +272,14 @@
 
 	.ad-space-widget .ad-space-text {
 	    margin: 0 -15px;
+	}
+
+	.cafe-imagesbox .imagesbox .featured-box a span {
+		display: none;
+	}
+
+	.cafe-imagesbox .imagesbox .imagesbox-content .title a {
+		font-size: 24px;
 	}
 }
 
